@@ -1,11 +1,11 @@
 import torch
 from torch.utils.data import Dataset, DataLoader
-from utilis.log import create_logger
-from utilis.dataset import Matrix, GeneratedMatrix
+from utils.log import create_logger
+from utils.dataset import Matrix, GeneratedMatrix
 import yaml
 import torch.nn.functional as F
 import time
-from utilis.monitor import GPUUsageMonitor
+from utils.monitor import GPUUsageMonitor
 import csv
 
 def attention(queries, keys, values):
