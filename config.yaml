@@ -1,0 +1,6 @@
+matrix:
+  d_k: 100
+  d_v: 100
+  tokens: 1000
+dataset:
+  size: 10000
