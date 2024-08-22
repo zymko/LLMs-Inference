@@ -97,6 +97,7 @@ We fixed the batch size, while changing matrix (query, value, key) size from 400
 
 > Possible Solutions:
 - Increase the costs of scaled dot-product attention by increasing the matrix size, perhaps from 400x2000 to 1000x5000, but be cautious about memory usage.
+- Adopt more complex operations on matrices, for example, loading a model.
 - Increase the number of matrices, for example from 2000 to 10000, to compensate for the large overheads caused by dataloader initialization.
 
 
