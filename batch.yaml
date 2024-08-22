@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 dataset:
   size: 2000
   # batch_sizes: [4, 8, 16, 32, 64, 128, 256, 512]
+=======
+dataset:
+  size: 2000
+  # batch_sizes: [4, 8, 16, 32, 64, 128, 256, 512]
+>>>>>>> 4e3df20d402d946ecab868bbe7234802a04fa016
   batch_sizes: [512]
