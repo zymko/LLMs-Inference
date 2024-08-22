@@ -32,6 +32,8 @@ Currently, our test is based on a [Scaled Dot-Product Attention](https://example
 ```math
 \text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V
 ```
+## Test Platform
+GN10Xp.2XLARGE4 (1 * NVIDIA V100)
 
 ## Results
 
