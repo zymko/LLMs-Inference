@@ -35,7 +35,7 @@ Currently, our test is based on a [Scaled Dot-Product Attention](https://example
 
 ## Results
 
-### Peak Memory 
+### Peak Memory (GB)
 
 #### Statistics
 | Size                     | 400x400 | 800x400 | 1200x400 | 1600x400 | 2000x400 |
@@ -57,7 +57,7 @@ We fixed the batch size, while changing matrix (query, value, key) size from 400
 ![Memory & Batch Size](results/images/memory_batch_size.png)
 
 
-### Running Time
+### Running Time (s)
 
 #### Statistics
 | Size                     | 400x400 | 800x400 | 1200x400 | 1600x400 | 2000x400 |
