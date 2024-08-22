@@ -1,0 +1,845 @@
+<<<<<<< HEAD
+2024-08-21 22:48:05,694 - INFO - Logger created successfully!
+2024-08-21 22:48:05,694 - INFO - Using device: cuda
+2024-08-21 22:48:05,694 - INFO - Starting:
+2024-08-21 22:48:42,067 - INFO - Logger created successfully!
+2024-08-21 22:48:42,067 - INFO - Using device: cuda
+2024-08-21 22:48:42,067 - INFO - Starting:
+2024-08-21 22:48:46,803 - INFO - Running time: 4.2871410846710205
+2024-08-21 22:49:11,801 - INFO - Logger created successfully!
+2024-08-21 22:49:11,819 - INFO - Using device: cuda
+2024-08-21 22:49:11,819 - INFO - Starting:
+2024-08-21 22:49:17,541 - INFO - Running time: 5.275472402572632
+2024-08-21 22:58:08,270 - INFO - Logger created successfully!
+2024-08-21 22:58:08,287 - INFO - Using device: cuda
+2024-08-21 22:58:08,287 - INFO - Starting:
+2024-08-21 22:58:20,601 - INFO - Running time: 11.85549545288086
+2024-08-21 22:59:43,390 - INFO - Logger created successfully!
+2024-08-21 22:59:43,390 - INFO - Using device: cuda
+2024-08-21 22:59:43,390 - INFO - Starting:
+2024-08-21 22:59:53,836 - INFO - Running time: 10.00006628036499
+2024-08-21 23:02:05,328 - INFO - Logger created successfully!
+2024-08-21 23:02:05,345 - INFO - Using device: cuda
+2024-08-21 23:02:05,345 - INFO - Starting:
+2024-08-21 23:02:15,423 - INFO - Running time: 7.39068603515625
+2024-08-21 23:03:18,447 - INFO - Logger created successfully!
+2024-08-21 23:03:18,447 - INFO - Using device: cuda
+2024-08-21 23:03:18,447 - INFO - Starting:
+2024-08-21 23:03:28,678 - INFO - Running time: 7.519572496414185
+2024-08-21 23:05:20,468 - INFO - Logger created successfully!
+2024-08-21 23:05:20,468 - INFO - Using device: cuda
+2024-08-21 23:05:20,468 - INFO - Starting:
+2024-08-21 23:05:31,256 - INFO - Running time: 10.320824146270752
+2024-08-21 23:15:12,275 - INFO - Logger created successfully!
+2024-08-21 23:15:12,291 - INFO - Using device: cuda
+2024-08-21 23:15:12,291 - INFO - Starting:
+2024-08-21 23:15:22,712 - INFO - Running time: 9.968597888946533
+2024-08-21 23:15:22,712 - INFO - Peak GPU memory allocated: 9236.64 MB
+2024-08-21 23:15:54,176 - INFO - Logger created successfully!
+2024-08-21 23:15:54,191 - INFO - Using device: cuda
+2024-08-21 23:15:54,191 - INFO - Starting:
+2024-08-21 23:16:05,729 - INFO - Running time: 11.080145835876465
+2024-08-21 23:16:05,730 - INFO - Peak GPU memory allocated: 9236.64 MB
+2024-08-21 23:16:41,543 - INFO - Logger created successfully!
+2024-08-21 23:16:41,543 - INFO - Using device: cuda
+2024-08-21 23:16:41,543 - INFO - Starting:
+2024-08-21 23:18:55,414 - INFO - Logger created successfully!
+2024-08-21 23:18:55,436 - INFO - Using device: cuda
+2024-08-21 23:18:55,437 - INFO - Starting:
+2024-08-21 23:19:21,515 - INFO - Logger created successfully!
+2024-08-21 23:19:21,526 - INFO - Using device: cuda
+2024-08-21 23:19:21,526 - INFO - Starting:
+2024-08-21 23:19:50,882 - INFO - Logger created successfully!
+2024-08-21 23:19:50,900 - INFO - Using device: cuda
+2024-08-21 23:19:50,900 - INFO - Starting:
+2024-08-21 23:20:01,329 - INFO - Running time: 9.98684048652649
+2024-08-21 23:20:01,329 - INFO - Peak GPU memory allocated: 9236.64 MB
+2024-08-21 23:20:36,069 - INFO - Logger created successfully!
+2024-08-21 23:20:36,086 - INFO - Using device: cuda
+2024-08-21 23:20:36,086 - INFO - Starting:
+2024-08-21 23:20:41,948 - INFO - Running time: 5.42519474029541
+2024-08-21 23:20:41,948 - INFO - Peak GPU memory allocated: 4504.12 MB
+2024-08-21 23:20:58,251 - INFO - Logger created successfully!
+2024-08-21 23:20:58,270 - INFO - Using device: cuda
+2024-08-21 23:20:58,270 - INFO - Starting:
+2024-08-21 23:21:48,019 - INFO - Logger created successfully!
+2024-08-21 23:21:48,019 - INFO - Using device: cuda
+2024-08-21 23:21:48,019 - INFO - Starting:
+2024-08-21 23:21:56,052 - INFO - Running time: 7.578538179397583
+2024-08-21 23:21:56,052 - INFO - Peak GPU memory allocated: 8408.62 MB
+2024-08-21 23:22:08,120 - INFO - Logger created successfully!
+2024-08-21 23:22:08,137 - INFO - Using device: cuda
+2024-08-21 23:22:08,137 - INFO - Starting:
+2024-08-21 23:22:40,922 - INFO - Logger created successfully!
+2024-08-21 23:22:40,938 - INFO - Using device: cuda
+2024-08-21 23:22:40,938 - INFO - Starting:
+2024-08-21 23:22:52,278 - INFO - Running time: 10.907606601715088
+2024-08-21 23:22:52,278 - INFO - Peak GPU memory allocated: 8992.50 MB
+2024-08-21 23:23:06,623 - INFO - Logger created successfully!
+2024-08-21 23:23:06,639 - INFO - Using device: cuda
+2024-08-21 23:23:06,639 - INFO - Starting:
+2024-08-21 23:23:25,407 - INFO - Running time: 18.32836413383484
+2024-08-21 23:23:25,407 - INFO - Peak GPU memory allocated: 10166.62 MB
+2024-08-21 23:23:55,160 - INFO - Logger created successfully!
+2024-08-21 23:23:55,174 - INFO - Using device: cuda
+2024-08-21 23:23:55,174 - INFO - Starting:
+2024-08-21 23:30:52,617 - INFO - Logger created successfully!
+2024-08-21 23:30:52,661 - INFO - Using device: cuda
+2024-08-21 23:30:52,661 - INFO - Starting:
+2024-08-22 00:12:43,794 - INFO - Logger created successfully!
+2024-08-22 00:12:43,827 - INFO - Using device: cuda
+2024-08-22 00:12:43,827 - INFO - Starting:
+2024-08-22 00:13:03,129 - INFO - Running time: 18.241896390914917
+2024-08-22 00:13:03,129 - INFO - Peak GPU memory allocated: 10166.62 MB
+2024-08-22 00:18:58,873 - INFO - Logger created successfully!
+2024-08-22 00:18:58,929 - INFO - Using device: cuda
+2024-08-22 00:18:58,929 - INFO - Starting:
+2024-08-22 00:22:22,305 - INFO - Running time: 202.31366753578186
+2024-08-22 00:22:22,320 - INFO - Peak GPU memory allocated: 10166.62 MB
+2024-08-22 00:31:53,962 - INFO - Logger created successfully!
+2024-08-22 00:31:54,006 - INFO - Using device: cuda
+2024-08-22 00:31:54,006 - INFO - Starting:
+2024-08-22 00:32:53,112 - INFO - Logger created successfully!
+2024-08-22 00:32:53,120 - INFO - Using device: cuda
+2024-08-22 00:32:53,121 - INFO - Starting:
+2024-08-22 00:34:29,109 - INFO - Logger created successfully!
+2024-08-22 00:34:29,109 - INFO - Using device: cuda
+2024-08-22 00:34:29,109 - INFO - Starting:
+2024-08-22 00:37:43,807 - INFO - Running time: 194.251371383667
+2024-08-22 00:37:43,822 - INFO - Peak GPU memory allocated: 10166.62 MB
+=======
+2024-08-21 22:48:05,694 - INFO - Logger created successfully!
+2024-08-21 22:48:05,694 - INFO - Using device: cuda
+2024-08-21 22:48:05,694 - INFO - Starting:
+2024-08-21 22:48:42,067 - INFO - Logger created successfully!
+2024-08-21 22:48:42,067 - INFO - Using device: cuda
+2024-08-21 22:48:42,067 - INFO - Starting:
+2024-08-21 22:48:46,803 - INFO - Running time: 4.2871410846710205
+2024-08-21 22:49:11,801 - INFO - Logger created successfully!
+2024-08-21 22:49:11,819 - INFO - Using device: cuda
+2024-08-21 22:49:11,819 - INFO - Starting:
+2024-08-21 22:49:17,541 - INFO - Running time: 5.275472402572632
+2024-08-21 22:58:08,270 - INFO - Logger created successfully!
+2024-08-21 22:58:08,287 - INFO - Using device: cuda
+2024-08-21 22:58:08,287 - INFO - Starting:
+2024-08-21 22:58:20,601 - INFO - Running time: 11.85549545288086
+2024-08-21 22:59:43,390 - INFO - Logger created successfully!
+2024-08-21 22:59:43,390 - INFO - Using device: cuda
+2024-08-21 22:59:43,390 - INFO - Starting:
+2024-08-21 22:59:53,836 - INFO - Running time: 10.00006628036499
+2024-08-21 23:02:05,328 - INFO - Logger created successfully!
+2024-08-21 23:02:05,345 - INFO - Using device: cuda
+2024-08-21 23:02:05,345 - INFO - Starting:
+2024-08-21 23:02:15,423 - INFO - Running time: 7.39068603515625
+2024-08-21 23:03:18,447 - INFO - Logger created successfully!
+2024-08-21 23:03:18,447 - INFO - Using device: cuda
+2024-08-21 23:03:18,447 - INFO - Starting:
+2024-08-21 23:03:28,678 - INFO - Running time: 7.519572496414185
+2024-08-21 23:05:20,468 - INFO - Logger created successfully!
+2024-08-21 23:05:20,468 - INFO - Using device: cuda
+2024-08-21 23:05:20,468 - INFO - Starting:
+2024-08-21 23:05:31,256 - INFO - Running time: 10.320824146270752
+2024-08-21 23:15:12,275 - INFO - Logger created successfully!
+2024-08-21 23:15:12,291 - INFO - Using device: cuda
+2024-08-21 23:15:12,291 - INFO - Starting:
+2024-08-21 23:15:22,712 - INFO - Running time: 9.968597888946533
+2024-08-21 23:15:22,712 - INFO - Peak GPU memory allocated: 9236.64 MB
+2024-08-21 23:15:54,176 - INFO - Logger created successfully!
+2024-08-21 23:15:54,191 - INFO - Using device: cuda
+2024-08-21 23:15:54,191 - INFO - Starting:
+2024-08-21 23:16:05,729 - INFO - Running time: 11.080145835876465
+2024-08-21 23:16:05,730 - INFO - Peak GPU memory allocated: 9236.64 MB
+2024-08-21 23:16:41,543 - INFO - Logger created successfully!
+2024-08-21 23:16:41,543 - INFO - Using device: cuda
+2024-08-21 23:16:41,543 - INFO - Starting:
+2024-08-21 23:18:55,414 - INFO - Logger created successfully!
+2024-08-21 23:18:55,436 - INFO - Using device: cuda
+2024-08-21 23:18:55,437 - INFO - Starting:
+2024-08-21 23:19:21,515 - INFO - Logger created successfully!
+2024-08-21 23:19:21,526 - INFO - Using device: cuda
+2024-08-21 23:19:21,526 - INFO - Starting:
+2024-08-21 23:19:50,882 - INFO - Logger created successfully!
+2024-08-21 23:19:50,900 - INFO - Using device: cuda
+2024-08-21 23:19:50,900 - INFO - Starting:
+2024-08-21 23:20:01,329 - INFO - Running time: 9.98684048652649
+2024-08-21 23:20:01,329 - INFO - Peak GPU memory allocated: 9236.64 MB
+2024-08-21 23:20:36,069 - INFO - Logger created successfully!
+2024-08-21 23:20:36,086 - INFO - Using device: cuda
+2024-08-21 23:20:36,086 - INFO - Starting:
+2024-08-21 23:20:41,948 - INFO - Running time: 5.42519474029541
+2024-08-21 23:20:41,948 - INFO - Peak GPU memory allocated: 4504.12 MB
+2024-08-21 23:20:58,251 - INFO - Logger created successfully!
+2024-08-21 23:20:58,270 - INFO - Using device: cuda
+2024-08-21 23:20:58,270 - INFO - Starting:
+2024-08-21 23:21:48,019 - INFO - Logger created successfully!
+2024-08-21 23:21:48,019 - INFO - Using device: cuda
+2024-08-21 23:21:48,019 - INFO - Starting:
+2024-08-21 23:21:56,052 - INFO - Running time: 7.578538179397583
+2024-08-21 23:21:56,052 - INFO - Peak GPU memory allocated: 8408.62 MB
+2024-08-21 23:22:08,120 - INFO - Logger created successfully!
+2024-08-21 23:22:08,137 - INFO - Using device: cuda
+2024-08-21 23:22:08,137 - INFO - Starting:
+2024-08-21 23:22:40,922 - INFO - Logger created successfully!
+2024-08-21 23:22:40,938 - INFO - Using device: cuda
+2024-08-21 23:22:40,938 - INFO - Starting:
+2024-08-21 23:22:52,278 - INFO - Running time: 10.907606601715088
+2024-08-21 23:22:52,278 - INFO - Peak GPU memory allocated: 8992.50 MB
+2024-08-21 23:23:06,623 - INFO - Logger created successfully!
+2024-08-21 23:23:06,639 - INFO - Using device: cuda
+2024-08-21 23:23:06,639 - INFO - Starting:
+2024-08-21 23:23:25,407 - INFO - Running time: 18.32836413383484
+2024-08-21 23:23:25,407 - INFO - Peak GPU memory allocated: 10166.62 MB
+2024-08-21 23:23:55,160 - INFO - Logger created successfully!
+2024-08-21 23:23:55,174 - INFO - Using device: cuda
+2024-08-21 23:23:55,174 - INFO - Starting:
+2024-08-21 23:30:52,617 - INFO - Logger created successfully!
+2024-08-21 23:30:52,661 - INFO - Using device: cuda
+2024-08-21 23:30:52,661 - INFO - Starting:
+2024-08-22 00:12:43,794 - INFO - Logger created successfully!
+2024-08-22 00:12:43,827 - INFO - Using device: cuda
+2024-08-22 00:12:43,827 - INFO - Starting:
+2024-08-22 00:13:03,129 - INFO - Running time: 18.241896390914917
+2024-08-22 00:13:03,129 - INFO - Peak GPU memory allocated: 10166.62 MB
+2024-08-22 00:18:58,873 - INFO - Logger created successfully!
+2024-08-22 00:18:58,929 - INFO - Using device: cuda
+2024-08-22 00:18:58,929 - INFO - Starting:
+2024-08-22 00:22:22,305 - INFO - Running time: 202.31366753578186
+2024-08-22 00:22:22,320 - INFO - Peak GPU memory allocated: 10166.62 MB
+2024-08-22 00:31:53,962 - INFO - Logger created successfully!
+2024-08-22 00:31:54,006 - INFO - Using device: cuda
+2024-08-22 00:31:54,006 - INFO - Starting:
+2024-08-22 00:32:53,112 - INFO - Logger created successfully!
+2024-08-22 00:32:53,120 - INFO - Using device: cuda
+2024-08-22 00:32:53,121 - INFO - Starting:
+2024-08-22 00:34:29,109 - INFO - Logger created successfully!
+2024-08-22 00:34:29,109 - INFO - Using device: cuda
+2024-08-22 00:34:29,109 - INFO - Starting:
+2024-08-22 00:37:43,807 - INFO - Running time: 194.251371383667
+2024-08-22 00:37:43,822 - INFO - Peak GPU memory allocated: 10166.62 MB
+>>>>>>> 4e3df20d402d946ecab868bbe7234802a04fa016
+2024-08-22 15:47:08,753 - INFO - Logger created successfully!
+2024-08-22 15:47:08,775 - INFO - Using device: cuda
+2024-08-22 15:47:08,775 - INFO - Starting:
+2024-08-22 15:47:23,363 - INFO - Running time: 14.58385419845581
+2024-08-22 15:47:23,364 - INFO - Peak GPU memory allocated: 160.62 MB
+2024-08-22 15:47:32,738 - INFO - Running time: 9.370861053466797
+2024-08-22 15:47:32,738 - INFO - Peak GPU memory allocated: 317.38 MB
+2024-08-22 15:47:41,790 - INFO - Running time: 9.047085285186768
+2024-08-22 15:47:41,791 - INFO - Peak GPU memory allocated: 634.77 MB
+2024-08-22 15:47:51,025 - INFO - Running time: 9.228405714035034
+2024-08-22 15:47:51,026 - INFO - Peak GPU memory allocated: 1270.56 MB
+2024-08-22 15:48:01,068 - INFO - Running time: 10.03365182876587
+2024-08-22 15:48:01,069 - INFO - Peak GPU memory allocated: 2541.12 MB
+2024-08-22 15:48:12,776 - INFO - Running time: 11.695625305175781
+2024-08-22 15:48:12,777 - INFO - Peak GPU memory allocated: 5079.88 MB
+2024-08-22 15:48:36,924 - INFO - Running time: 24.133031845092773
+2024-08-22 15:48:36,925 - INFO - Peak GPU memory allocated: 10158.50 MB
+2024-08-22 15:52:28,125 - INFO - Logger created successfully!
+2024-08-22 15:52:28,146 - INFO - Using device: cuda
+2024-08-22 15:52:28,146 - INFO - Starting:
+2024-08-22 15:53:08,560 - INFO - Running time: 40.40932011604309
+2024-08-22 15:53:08,560 - INFO - Peak GPU memory allocated: 160.62 MB
+2024-08-22 15:53:17,277 - INFO - Running time: 8.713626384735107
+2024-08-22 15:53:17,278 - INFO - Peak GPU memory allocated: 317.38 MB
+2024-08-22 15:53:25,550 - INFO - Running time: 8.267998933792114
+2024-08-22 15:53:25,551 - INFO - Peak GPU memory allocated: 634.77 MB
+2024-08-22 15:53:34,118 - INFO - Running time: 8.560892820358276
+2024-08-22 15:53:34,119 - INFO - Peak GPU memory allocated: 1270.56 MB
+2024-08-22 15:53:43,453 - INFO - Running time: 9.326666116714478
+2024-08-22 15:53:43,453 - INFO - Peak GPU memory allocated: 2541.12 MB
+2024-08-22 15:53:54,614 - INFO - Running time: 11.150215148925781
+2024-08-22 15:53:54,615 - INFO - Peak GPU memory allocated: 5079.88 MB
+2024-08-22 15:54:17,294 - INFO - Running time: 22.66635775566101
+2024-08-22 15:54:17,295 - INFO - Peak GPU memory allocated: 10158.50 MB
+2024-08-22 15:57:54,993 - INFO - Logger created successfully!
+2024-08-22 15:57:55,015 - INFO - Using device: cuda
+2024-08-22 15:57:55,015 - INFO - Starting:
+2024-08-22 15:58:43,394 - INFO - Running time: 48.37504768371582
+2024-08-22 15:58:43,394 - INFO - Peak GPU memory allocated: 160.62 MB
+2024-08-22 15:58:52,145 - INFO - Running time: 8.747406721115112
+2024-08-22 15:58:52,145 - INFO - Peak GPU memory allocated: 317.38 MB
+2024-08-22 15:59:00,577 - INFO - Running time: 8.426782608032227
+2024-08-22 15:59:00,577 - INFO - Peak GPU memory allocated: 634.77 MB
+2024-08-22 15:59:09,020 - INFO - Running time: 8.436359405517578
+2024-08-22 15:59:09,020 - INFO - Peak GPU memory allocated: 1270.56 MB
+2024-08-22 15:59:18,293 - INFO - Running time: 9.26378083229065
+2024-08-22 15:59:18,293 - INFO - Peak GPU memory allocated: 2541.12 MB
+2024-08-22 15:59:29,640 - INFO - Running time: 11.336129426956177
+2024-08-22 15:59:29,641 - INFO - Peak GPU memory allocated: 5079.88 MB
+2024-08-22 15:59:48,009 - INFO - Running time: 18.352982997894287
+2024-08-22 15:59:48,010 - INFO - Peak GPU memory allocated: 10158.50 MB
+2024-08-22 16:01:32,481 - INFO - Logger created successfully!
+2024-08-22 16:01:32,503 - INFO - Using device: cuda
+2024-08-22 16:01:32,503 - INFO - Starting:
+2024-08-22 16:02:20,902 - INFO - Running time: 48.39157700538635
+2024-08-22 16:02:20,903 - INFO - Peak GPU memory allocated: 160.62 MB
+2024-08-22 16:02:29,363 - INFO - Running time: 8.452844619750977
+2024-08-22 16:02:29,364 - INFO - Peak GPU memory allocated: 317.38 MB
+2024-08-22 16:02:37,407 - INFO - Running time: 8.035316944122314
+2024-08-22 16:02:37,408 - INFO - Peak GPU memory allocated: 634.77 MB
+2024-08-22 16:02:45,786 - INFO - Running time: 8.366008281707764
+2024-08-22 16:02:45,786 - INFO - Peak GPU memory allocated: 1270.56 MB
+2024-08-22 16:02:55,017 - INFO - Running time: 9.216606855392456
+2024-08-22 16:02:55,018 - INFO - Peak GPU memory allocated: 2541.12 MB
+2024-08-22 16:03:05,739 - INFO - Running time: 10.706672430038452
+2024-08-22 16:03:05,741 - INFO - Peak GPU memory allocated: 5079.88 MB
+2024-08-22 16:03:32,467 - INFO - Running time: 26.708194732666016
+2024-08-22 16:03:32,468 - INFO - Peak GPU memory allocated: 10158.50 MB
+2024-08-22 16:04:27,125 - INFO - Logger created successfully!
+2024-08-22 16:04:27,147 - INFO - Using device: cuda
+2024-08-22 16:04:27,147 - INFO - Starting:
+2024-08-22 16:05:07,111 - INFO - Running time: 39.95948123931885
+2024-08-22 16:05:07,111 - INFO - Peak GPU memory allocated: 160.62 MB
+2024-08-22 16:05:15,498 - INFO - Running time: 8.38337230682373
+2024-08-22 16:05:15,498 - INFO - Peak GPU memory allocated: 317.38 MB
+2024-08-22 16:05:23,730 - INFO - Running time: 8.22785496711731
+2024-08-22 16:05:23,731 - INFO - Peak GPU memory allocated: 634.77 MB
+2024-08-22 16:05:31,996 - INFO - Running time: 8.258381366729736
+2024-08-22 16:05:31,996 - INFO - Peak GPU memory allocated: 1270.56 MB
+2024-08-22 16:05:41,415 - INFO - Running time: 9.410635471343994
+2024-08-22 16:05:41,416 - INFO - Peak GPU memory allocated: 2541.12 MB
+2024-08-22 16:05:52,466 - INFO - Running time: 11.039146661758423
+2024-08-22 16:05:52,467 - INFO - Peak GPU memory allocated: 5079.88 MB
+2024-08-22 16:06:14,820 - INFO - Running time: 22.34026551246643
+2024-08-22 16:06:14,822 - INFO - Peak GPU memory allocated: 10158.50 MB
+2024-08-22 16:09:04,611 - INFO - Logger created successfully!
+2024-08-22 16:09:04,631 - INFO - Using device: cuda
+2024-08-22 16:09:04,631 - INFO - Starting:
+2024-08-22 16:09:38,950 - INFO - Running time: 34.314192056655884
+2024-08-22 16:09:38,950 - INFO - Peak GPU memory allocated: 160.62 MB
+2024-08-22 16:09:47,628 - INFO - Running time: 8.674865961074829
+2024-08-22 16:09:47,629 - INFO - Peak GPU memory allocated: 317.38 MB
+2024-08-22 16:09:56,214 - INFO - Running time: 8.581142902374268
+2024-08-22 16:09:56,215 - INFO - Peak GPU memory allocated: 634.77 MB
+2024-08-22 16:10:04,799 - INFO - Running time: 8.57774043083191
+2024-08-22 16:10:04,799 - INFO - Peak GPU memory allocated: 1270.56 MB
+2024-08-22 16:10:14,426 - INFO - Running time: 9.618871688842773
+2024-08-22 16:10:14,427 - INFO - Peak GPU memory allocated: 2541.12 MB
+2024-08-22 16:10:34,944 - INFO - Running time: 20.50686025619507
+2024-08-22 16:10:34,945 - INFO - Peak GPU memory allocated: 5079.88 MB
+2024-08-22 16:10:51,276 - INFO - Running time: 16.31690287590027
+2024-08-22 16:10:51,277 - INFO - Peak GPU memory allocated: 10158.50 MB
+2024-08-22 16:11:27,488 - INFO - Logger created successfully!
+2024-08-22 16:11:27,511 - INFO - Using device: cuda
+2024-08-22 16:11:27,511 - INFO - Starting:
+2024-08-22 16:12:14,741 - INFO - Running time: 47.225762367248535
+2024-08-22 16:12:14,741 - INFO - Peak GPU memory allocated: 160.62 MB
+2024-08-22 16:12:23,283 - INFO - Running time: 8.538432598114014
+2024-08-22 16:12:23,283 - INFO - Peak GPU memory allocated: 317.38 MB
+2024-08-22 16:12:31,294 - INFO - Running time: 8.00636911392212
+2024-08-22 16:12:31,294 - INFO - Peak GPU memory allocated: 634.77 MB
+2024-08-22 16:12:39,835 - INFO - Running time: 8.534262657165527
+2024-08-22 16:12:39,835 - INFO - Peak GPU memory allocated: 1270.56 MB
+2024-08-22 16:12:49,213 - INFO - Running time: 9.369159460067749
+2024-08-22 16:12:49,214 - INFO - Peak GPU memory allocated: 2541.12 MB
+2024-08-22 16:13:00,362 - INFO - Running time: 11.137641191482544
+2024-08-22 16:13:00,363 - INFO - Peak GPU memory allocated: 5079.88 MB
+2024-08-22 16:13:26,569 - INFO - Running time: 26.190673828125
+2024-08-22 16:13:26,570 - INFO - Peak GPU memory allocated: 10158.50 MB
+2024-08-22 16:13:34,321 - INFO - Logger created successfully!
+2024-08-22 16:13:34,342 - INFO - Using device: cuda
+2024-08-22 16:13:34,342 - INFO - Starting:
+2024-08-22 16:14:29,611 - INFO - Logger created successfully!
+2024-08-22 16:14:29,632 - INFO - Using device: cuda
+2024-08-22 16:14:29,632 - INFO - Starting:
+2024-08-22 16:14:42,076 - INFO - Running time: 12.43640661239624
+2024-08-22 16:14:42,076 - INFO - Peak GPU memory allocated: 160.62 MB
+2024-08-22 16:18:05,491 - INFO - Logger created successfully!
+2024-08-22 16:18:05,511 - INFO - Using device: cuda
+2024-08-22 16:18:05,511 - INFO - Starting:
+2024-08-22 16:18:17,698 - INFO - Running time: 0.3654286861419678
+2024-08-22 16:18:17,698 - INFO - Peak GPU memory allocated: 160.62 MB
+2024-08-22 16:18:26,602 - INFO - Running time: 0.06841683387756348
+2024-08-22 16:18:26,602 - INFO - Peak GPU memory allocated: 317.38 MB
+2024-08-22 16:18:34,941 - INFO - Running time: 0.034796714782714844
+2024-08-22 16:18:34,941 - INFO - Peak GPU memory allocated: 634.77 MB
+2024-08-22 16:18:43,308 - INFO - Running time: 0.020052433013916016
+2024-08-22 16:18:43,309 - INFO - Peak GPU memory allocated: 1270.56 MB
+2024-08-22 16:18:52,424 - INFO - Running time: 0.012897729873657227
+2024-08-22 16:18:52,424 - INFO - Peak GPU memory allocated: 2541.12 MB
+2024-08-22 16:19:02,514 - INFO - Running time: 0.012204408645629883
+2024-08-22 16:19:02,515 - INFO - Peak GPU memory allocated: 5079.88 MB
+2024-08-22 16:19:18,234 - INFO - Running time: 0.013840198516845703
+2024-08-22 16:19:18,235 - INFO - Peak GPU memory allocated: 10158.50 MB
+2024-08-22 16:29:35,653 - INFO - Logger created successfully!
+2024-08-22 16:29:35,714 - INFO - Using device: cuda
+2024-08-22 16:29:35,715 - INFO - Starting:
+2024-08-22 16:29:45,259 - INFO - Logger created successfully!
+2024-08-22 16:29:45,279 - INFO - Using device: cuda
+2024-08-22 16:29:45,279 - INFO - Starting:
+2024-08-22 16:29:45,286 - INFO - Running time: 0.004022836685180664
+2024-08-22 16:29:45,286 - INFO - Peak GPU memory allocated: 0.00 MB
+2024-08-22 16:29:45,290 - INFO - Running time: 0.0036084651947021484
+2024-08-22 16:29:45,290 - INFO - Peak GPU memory allocated: 0.00 MB
+2024-08-22 16:29:45,294 - INFO - Running time: 0.003510713577270508
+2024-08-22 16:29:45,294 - INFO - Peak GPU memory allocated: 0.00 MB
+2024-08-22 16:29:45,298 - INFO - Running time: 0.0035223960876464844
+2024-08-22 16:29:45,298 - INFO - Peak GPU memory allocated: 0.00 MB
+2024-08-22 16:29:45,302 - INFO - Running time: 0.0035130977630615234
+2024-08-22 16:29:45,302 - INFO - Peak GPU memory allocated: 0.00 MB
+2024-08-22 16:29:45,306 - INFO - Running time: 0.003489971160888672
+2024-08-22 16:29:45,306 - INFO - Peak GPU memory allocated: 0.00 MB
+2024-08-22 16:29:45,310 - INFO - Running time: 0.0035610198974609375
+2024-08-22 16:29:45,310 - INFO - Peak GPU memory allocated: 0.00 MB
+2024-08-22 16:30:17,611 - INFO - Logger created successfully!
+2024-08-22 16:30:17,630 - INFO - Using device: cuda
+2024-08-22 16:30:17,630 - INFO - Starting:
+2024-08-22 16:30:43,349 - INFO - Logger created successfully!
+2024-08-22 16:30:43,369 - INFO - Using device: cuda
+2024-08-22 16:30:43,369 - INFO - Starting:
+2024-08-22 16:30:57,555 - INFO - Running time: 14.182318925857544
+2024-08-22 16:30:57,555 - INFO - Peak GPU memory allocated: 80.00 MB
+2024-08-22 16:31:08,100 - INFO - Running time: 10.541753053665161
+2024-08-22 16:31:08,100 - INFO - Peak GPU memory allocated: 152.59 MB
+2024-08-22 16:31:18,098 - INFO - Running time: 9.993216514587402
+2024-08-22 16:31:18,099 - INFO - Peak GPU memory allocated: 310.00 MB
+2024-08-22 16:31:28,213 - INFO - Running time: 10.108232021331787
+2024-08-22 16:31:28,214 - INFO - Peak GPU memory allocated: 610.35 MB
+2024-08-22 16:31:40,995 - INFO - Running time: 12.773885726928711
+2024-08-22 16:31:40,996 - INFO - Peak GPU memory allocated: 1220.70 MB
+2024-08-22 16:32:16,581 - INFO - Running time: 35.57635474205017
+2024-08-22 16:32:16,582 - INFO - Peak GPU memory allocated: 2441.41 MB
+2024-08-22 16:34:09,294 - INFO - Logger created successfully!
+2024-08-22 16:34:09,326 - INFO - Using device: cuda
+2024-08-22 16:34:09,326 - INFO - Starting:
+2024-08-22 16:35:03,909 - INFO - Running time: 54.57848811149597
+2024-08-22 16:35:03,909 - INFO - Peak GPU memory allocated: 160.62 MB
+2024-08-22 16:35:12,854 - INFO - Running time: 8.941164016723633
+2024-08-22 16:35:12,854 - INFO - Peak GPU memory allocated: 317.38 MB
+2024-08-22 16:35:20,879 - INFO - Running time: 8.020036220550537
+2024-08-22 16:35:20,880 - INFO - Peak GPU memory allocated: 634.77 MB
+2024-08-22 16:35:29,424 - INFO - Running time: 8.53700852394104
+2024-08-22 16:35:29,425 - INFO - Peak GPU memory allocated: 1270.56 MB
+2024-08-22 16:35:38,736 - INFO - Running time: 9.302172899246216
+2024-08-22 16:35:38,736 - INFO - Peak GPU memory allocated: 2541.12 MB
+2024-08-22 16:35:49,270 - INFO - Running time: 10.523696660995483
+2024-08-22 16:35:49,272 - INFO - Peak GPU memory allocated: 5079.88 MB
+2024-08-22 16:36:08,614 - INFO - Running time: 19.328959226608276
+2024-08-22 16:36:08,615 - INFO - Peak GPU memory allocated: 10158.50 MB
+2024-08-22 16:37:19,588 - INFO - Logger created successfully!
+2024-08-22 16:37:19,609 - INFO - Using device: cuda
+2024-08-22 16:37:19,609 - INFO - Starting:
+2024-08-22 16:37:57,584 - INFO - Logger created successfully!
+2024-08-22 16:37:57,604 - INFO - Using device: cuda
+2024-08-22 16:37:57,604 - INFO - Starting:
+2024-08-22 16:38:12,220 - INFO - Running time: 14.612993955612183
+2024-08-22 16:38:12,221 - INFO - Peak GPU memory allocated: 317.38 MB
+2024-08-22 16:38:20,385 - INFO - Running time: 8.159947156906128
+2024-08-22 16:38:20,386 - INFO - Peak GPU memory allocated: 634.77 MB
+2024-08-22 16:38:29,246 - INFO - Running time: 8.853946685791016
+2024-08-22 16:38:29,246 - INFO - Peak GPU memory allocated: 1270.56 MB
+2024-08-22 16:38:38,734 - INFO - Running time: 9.47877025604248
+2024-08-22 16:38:38,734 - INFO - Peak GPU memory allocated: 2541.12 MB
+2024-08-22 16:38:49,983 - INFO - Running time: 11.23774790763855
+2024-08-22 16:38:49,984 - INFO - Peak GPU memory allocated: 5079.88 MB
+2024-08-22 16:39:17,380 - INFO - Running time: 27.38159704208374
+2024-08-22 16:39:17,382 - INFO - Peak GPU memory allocated: 10158.50 MB
+2024-08-22 16:39:55,157 - INFO - Running time: 37.754958391189575
+2024-08-22 16:39:55,158 - INFO - Peak GPU memory allocated: 20312.50 MB
+2024-08-22 16:50:03,344 - INFO - Logger created successfully!
+2024-08-22 16:50:03,375 - INFO - Using device: cuda
+2024-08-22 16:50:03,375 - INFO - Starting:
+2024-08-22 16:51:04,085 - INFO - Running time: 60.70534896850586
+2024-08-22 16:51:04,085 - INFO - Peak GPU memory allocated: 317.38 MB
+2024-08-22 16:51:26,714 - INFO - Running time: 22.62354612350464
+2024-08-22 16:51:26,714 - INFO - Peak GPU memory allocated: 634.77 MB
+2024-08-22 16:51:48,711 - INFO - Running time: 21.9907443523407
+2024-08-22 16:51:48,712 - INFO - Peak GPU memory allocated: 1270.56 MB
+2024-08-22 16:52:10,647 - INFO - Running time: 21.926997661590576
+2024-08-22 16:52:10,647 - INFO - Peak GPU memory allocated: 2541.12 MB
+2024-08-22 16:52:32,796 - INFO - Running time: 22.13832712173462
+2024-08-22 16:52:32,796 - INFO - Peak GPU memory allocated: 5079.88 MB
+2024-08-22 16:52:55,937 - INFO - Running time: 23.125911474227905
+2024-08-22 16:52:55,937 - INFO - Peak GPU memory allocated: 10158.50 MB
+2024-08-22 16:53:21,018 - INFO - Running time: 25.062442779541016
+2024-08-22 16:53:21,019 - INFO - Peak GPU memory allocated: 20312.50 MB
+2024-08-22 16:53:35,533 - INFO - Logger created successfully!
+2024-08-22 16:53:35,553 - INFO - Using device: cuda
+2024-08-22 16:53:35,553 - INFO - Starting:
+2024-08-22 16:53:46,921 - INFO - Running time: 11.36470651626587
+2024-08-22 16:53:46,922 - INFO - Peak GPU memory allocated: 317.38 MB
+2024-08-22 16:53:54,749 - INFO - Running time: 7.822632312774658
+2024-08-22 16:53:54,749 - INFO - Peak GPU memory allocated: 634.77 MB
+2024-08-22 16:54:02,588 - INFO - Running time: 7.831948518753052
+2024-08-22 16:54:02,588 - INFO - Peak GPU memory allocated: 1270.56 MB
+2024-08-22 16:54:10,958 - INFO - Running time: 8.36250901222229
+2024-08-22 16:54:10,959 - INFO - Peak GPU memory allocated: 2541.12 MB
+2024-08-22 16:54:19,995 - INFO - Running time: 9.025867938995361
+2024-08-22 16:54:19,996 - INFO - Peak GPU memory allocated: 5079.88 MB
+2024-08-22 16:54:33,098 - INFO - Running time: 13.087574481964111
+2024-08-22 16:54:33,099 - INFO - Peak GPU memory allocated: 10158.50 MB
+2024-08-22 16:55:19,561 - INFO - Logger created successfully!
+2024-08-22 16:55:19,589 - INFO - Using device: cuda
+2024-08-22 16:55:19,590 - INFO - Starting:
+2024-08-22 16:56:12,753 - INFO - Logger created successfully!
+2024-08-22 16:56:12,773 - INFO - Using device: cuda
+2024-08-22 16:56:12,774 - INFO - Starting:
+2024-08-22 16:56:40,237 - INFO - Logger created successfully!
+2024-08-22 16:56:40,258 - INFO - Using device: cuda
+2024-08-22 16:56:40,258 - INFO - Starting:
+2024-08-22 16:56:52,522 - INFO - Running time: 12.261521577835083
+2024-08-22 16:56:52,523 - INFO - Peak GPU memory allocated: 317.38 MB
+2024-08-22 16:57:00,181 - INFO - Running time: 7.653276681900024
+2024-08-22 16:57:00,181 - INFO - Peak GPU memory allocated: 634.77 MB
+2024-08-22 16:57:07,840 - INFO - Running time: 7.653261423110962
+2024-08-22 16:57:07,841 - INFO - Peak GPU memory allocated: 1270.56 MB
+2024-08-22 16:57:16,153 - INFO - Running time: 8.304656028747559
+2024-08-22 16:57:16,154 - INFO - Peak GPU memory allocated: 2541.12 MB
+2024-08-22 16:57:25,105 - INFO - Running time: 8.941123723983765
+2024-08-22 16:57:25,106 - INFO - Peak GPU memory allocated: 5079.88 MB
+2024-08-22 16:57:37,902 - INFO - Running time: 12.781367301940918
+2024-08-22 16:57:37,904 - INFO - Peak GPU memory allocated: 10158.50 MB
+2024-08-22 16:58:02,269 - INFO - Running time: 24.346253633499146
+2024-08-22 16:58:02,269 - INFO - Peak GPU memory allocated: 15870.11 MB
+2024-08-22 16:58:28,968 - INFO - Logger created successfully!
+2024-08-22 16:58:28,991 - INFO - Using device: cuda
+2024-08-22 16:58:28,991 - INFO - Starting:
+2024-08-22 16:58:56,809 - INFO - Running time: 27.81411361694336
+2024-08-22 16:58:56,809 - INFO - Peak GPU memory allocated: 317.38 MB
+2024-08-22 16:59:04,505 - INFO - Running time: 7.6909825801849365
+2024-08-22 16:59:04,505 - INFO - Peak GPU memory allocated: 634.77 MB
+2024-08-22 16:59:12,374 - INFO - Running time: 7.862054824829102
+2024-08-22 16:59:12,374 - INFO - Peak GPU memory allocated: 1270.56 MB
+2024-08-22 16:59:20,847 - INFO - Running time: 8.464649438858032
+2024-08-22 16:59:20,848 - INFO - Peak GPU memory allocated: 2541.12 MB
+2024-08-22 16:59:30,432 - INFO - Running time: 9.573542833328247
+2024-08-22 16:59:30,433 - INFO - Peak GPU memory allocated: 5079.88 MB
+2024-08-22 16:59:43,466 - INFO - Running time: 13.019203901290894
+2024-08-22 16:59:43,467 - INFO - Peak GPU memory allocated: 10158.50 MB
+2024-08-22 17:00:08,422 - INFO - Running time: 24.93597650527954
+2024-08-22 17:00:08,424 - INFO - Peak GPU memory allocated: 20312.50 MB
+2024-08-22 17:01:31,767 - INFO - Logger created successfully!
+2024-08-22 17:01:31,788 - INFO - Using device: cuda
+2024-08-22 17:01:31,789 - INFO - Starting:
+2024-08-22 17:02:14,165 - INFO - Logger created successfully!
+2024-08-22 17:02:14,186 - INFO - Using device: cuda
+2024-08-22 17:02:14,186 - INFO - Starting:
+2024-08-22 17:02:44,597 - INFO - Running time: 30.407795667648315
+2024-08-22 17:02:44,598 - INFO - Peak GPU memory allocated: 317.38 MB
+2024-08-22 17:02:52,386 - INFO - Running time: 7.7833733558654785
+2024-08-22 17:02:52,386 - INFO - Peak GPU memory allocated: 634.77 MB
+2024-08-22 17:03:00,141 - INFO - Running time: 7.748159170150757
+2024-08-22 17:03:00,141 - INFO - Peak GPU memory allocated: 1270.56 MB
+2024-08-22 17:03:08,997 - INFO - Running time: 8.847301721572876
+2024-08-22 17:03:08,998 - INFO - Peak GPU memory allocated: 2541.12 MB
+2024-08-22 17:03:18,940 - INFO - Running time: 9.931729078292847
+2024-08-22 17:03:18,941 - INFO - Peak GPU memory allocated: 5079.88 MB
+2024-08-22 17:03:32,157 - INFO - Running time: 13.20245909690857
+2024-08-22 17:03:32,158 - INFO - Peak GPU memory allocated: 10158.50 MB
+2024-08-22 17:03:54,055 - INFO - Running time: 21.87640404701233
+2024-08-22 17:03:54,057 - INFO - Peak GPU memory allocated: 20312.50 MB
+2024-08-22 17:06:06,036 - INFO - Logger created successfully!
+2024-08-22 17:06:06,058 - INFO - Using device: cuda
+2024-08-22 17:06:06,058 - INFO - Starting:
+2024-08-22 17:06:59,433 - INFO - Logger created successfully!
+2024-08-22 17:06:59,454 - INFO - Using device: cuda
+2024-08-22 17:06:59,454 - INFO - Starting:
+2024-08-22 17:07:34,743 - INFO - Running time: 35.28570914268494
+2024-08-22 17:07:34,744 - INFO - Peak GPU memory allocated: 160.62 MB
+2024-08-22 17:07:42,669 - INFO - Running time: 7.9215989112854
+2024-08-22 17:07:42,670 - INFO - Peak GPU memory allocated: 317.38 MB
+2024-08-22 17:07:50,585 - INFO - Running time: 7.911445379257202
+2024-08-22 17:07:50,586 - INFO - Peak GPU memory allocated: 634.77 MB
+2024-08-22 17:07:58,314 - INFO - Running time: 7.720215797424316
+2024-08-22 17:07:58,314 - INFO - Peak GPU memory allocated: 1270.56 MB
+2024-08-22 17:08:06,311 - INFO - Running time: 7.988393783569336
+2024-08-22 17:08:06,312 - INFO - Peak GPU memory allocated: 2541.12 MB
+2024-08-22 17:08:15,370 - INFO - Running time: 9.048380851745605
+2024-08-22 17:08:15,371 - INFO - Peak GPU memory allocated: 5079.88 MB
+2024-08-22 17:08:28,897 - INFO - Running time: 13.511783599853516
+2024-08-22 17:08:28,898 - INFO - Peak GPU memory allocated: 10158.50 MB
+2024-08-22 17:08:56,271 - INFO - Logger created successfully!
+2024-08-22 17:08:56,302 - INFO - Using device: cuda
+2024-08-22 17:08:56,302 - INFO - Starting:
+2024-08-22 17:11:04,222 - INFO - Logger created successfully!
+2024-08-22 17:11:04,242 - INFO - Using device: cuda
+2024-08-22 17:11:04,242 - INFO - Starting:
+2024-08-22 17:11:33,889 - INFO - Logger created successfully!
+2024-08-22 17:11:33,909 - INFO - Using device: cuda
+2024-08-22 17:11:33,909 - INFO - Starting:
+2024-08-22 17:12:21,074 - INFO - Running time: 47.161298513412476
+2024-08-22 17:12:21,074 - INFO - Peak GPU memory allocated: 160.62 MB
+2024-08-22 17:12:29,205 - INFO - Running time: 8.127258539199829
+2024-08-22 17:12:29,205 - INFO - Peak GPU memory allocated: 317.38 MB
+2024-08-22 17:12:37,276 - INFO - Running time: 8.066694974899292
+2024-08-22 17:12:37,277 - INFO - Peak GPU memory allocated: 634.77 MB
+2024-08-22 17:12:46,352 - INFO - Running time: 9.068626165390015
+2024-08-22 17:12:46,353 - INFO - Peak GPU memory allocated: 1270.56 MB
+2024-08-22 17:12:55,685 - INFO - Running time: 9.324500560760498
+2024-08-22 17:12:55,685 - INFO - Peak GPU memory allocated: 2541.12 MB
+2024-08-22 17:13:05,878 - INFO - Running time: 10.182472467422485
+2024-08-22 17:13:05,879 - INFO - Peak GPU memory allocated: 5079.88 MB
+2024-08-22 17:13:19,285 - INFO - Running time: 13.391781330108643
+2024-08-22 17:13:19,286 - INFO - Peak GPU memory allocated: 10158.50 MB
+2024-08-22 17:13:43,187 - INFO - Running time: 23.88131546974182
+2024-08-22 17:13:43,188 - INFO - Peak GPU memory allocated: 20312.50 MB
+2024-08-22 17:14:07,964 - INFO - Logger created successfully!
+2024-08-22 17:14:07,986 - INFO - Using device: cuda
+2024-08-22 17:14:07,986 - INFO - Starting:
+2024-08-22 17:14:52,301 - INFO - Running time: 44.31165170669556
+2024-08-22 17:14:52,302 - INFO - Peak GPU memory allocated: 160.62 MB
+2024-08-22 17:15:00,496 - INFO - Running time: 8.190714836120605
+2024-08-22 17:15:00,496 - INFO - Peak GPU memory allocated: 317.38 MB
+2024-08-22 17:15:08,330 - INFO - Running time: 7.829159498214722
+2024-08-22 17:15:08,331 - INFO - Peak GPU memory allocated: 634.77 MB
+2024-08-22 17:15:15,936 - INFO - Running time: 7.597641706466675
+2024-08-22 17:15:15,937 - INFO - Peak GPU memory allocated: 1270.56 MB
+2024-08-22 17:15:24,027 - INFO - Running time: 8.082258462905884
+2024-08-22 17:15:24,027 - INFO - Peak GPU memory allocated: 2541.12 MB
+2024-08-22 17:15:33,589 - INFO - Running time: 9.551015138626099
+2024-08-22 17:15:33,589 - INFO - Peak GPU memory allocated: 5079.88 MB
+2024-08-22 17:15:45,673 - INFO - Running time: 12.06975507736206
+2024-08-22 17:15:45,674 - INFO - Peak GPU memory allocated: 10158.50 MB
+2024-08-22 17:16:06,304 - INFO - Running time: 20.609676599502563
+2024-08-22 17:16:06,305 - INFO - Peak GPU memory allocated: 20312.50 MB
+2024-08-22 19:49:05,221 - INFO - Logger created successfully!
+2024-08-22 19:49:05,242 - INFO - Using device: cuda
+2024-08-22 19:49:05,243 - INFO - Starting:
+2024-08-22 19:50:20,630 - INFO - Logger created successfully!
+2024-08-22 19:50:20,650 - INFO - Using device: cuda
+2024-08-22 19:50:20,650 - INFO - Starting:
+2024-08-22 19:50:58,398 - INFO - Logger created successfully!
+2024-08-22 19:50:58,418 - INFO - Using device: cuda
+2024-08-22 19:50:58,418 - INFO - Starting:
+2024-08-22 19:52:06,396 - INFO - Running time: 56.89769387245178
+2024-08-22 19:52:10,483 - INFO - Peak GPU memory allocated: 1270.56 MB
+2024-08-22 19:54:24,763 - INFO - Logger created successfully!
+2024-08-22 19:54:24,783 - INFO - Using device: cuda
+2024-08-22 19:54:24,783 - INFO - Starting:
+2024-08-22 19:54:35,916 - INFO - Running time: 11.129507541656494
+2024-08-22 19:54:35,916 - INFO - Peak GPU memory allocated: 1270.56 MB
+2024-08-22 19:54:43,624 - INFO - Running time: 7.699756145477295
+2024-08-22 19:54:43,625 - INFO - Peak GPU memory allocated: 1270.56 MB
+2024-08-22 19:56:03,487 - INFO - Logger created successfully!
+2024-08-22 19:56:03,507 - INFO - Using device: cuda
+2024-08-22 19:56:03,508 - INFO - Starting:
+2024-08-22 19:56:16,016 - INFO - Logger created successfully!
+2024-08-22 19:56:16,036 - INFO - Using device: cuda
+2024-08-22 19:56:16,036 - INFO - Starting:
+2024-08-22 19:56:42,516 - INFO - Logger created successfully!
+2024-08-22 19:56:42,536 - INFO - Using device: cuda
+2024-08-22 19:56:42,536 - INFO - Starting:
+2024-08-22 19:56:54,770 - INFO - Running time: 12.23093843460083
+2024-08-22 19:56:54,771 - INFO - Peak GPU memory allocated: 100.00 MB
+2024-08-22 19:56:56,645 - INFO - Running time: 1.8708505630493164
+2024-08-22 19:56:56,645 - INFO - Peak GPU memory allocated: 100.00 MB
+2024-08-22 19:57:17,280 - INFO - Running time: 20.6314640045166
+2024-08-22 19:57:17,281 - INFO - Peak GPU memory allocated: 276.25 MB
+2024-08-22 19:57:48,788 - INFO - Running time: 31.499961853027344
+2024-08-22 19:57:48,789 - INFO - Peak GPU memory allocated: 527.78 MB
+2024-08-22 19:58:30,794 - INFO - Running time: 41.998647689819336
+2024-08-22 19:58:30,794 - INFO - Peak GPU memory allocated: 859.38 MB
+2024-08-22 19:59:10,814 - INFO - Running time: 40.01265048980713
+2024-08-22 19:59:10,815 - INFO - Peak GPU memory allocated: 1270.56 MB
+2024-08-22 20:00:35,256 - INFO - Logger created successfully!
+2024-08-22 20:00:35,276 - INFO - Using device: cuda
+2024-08-22 20:00:35,277 - INFO - Starting:
+2024-08-22 20:00:41,637 - INFO - Running time: 6.356245756149292
+2024-08-22 20:00:41,637 - INFO - Peak GPU memory allocated: 100.00 MB
+2024-08-22 20:00:43,557 - INFO - Running time: 1.9167466163635254
+2024-08-22 20:00:43,558 - INFO - Peak GPU memory allocated: 100.00 MB
+2024-08-22 20:01:04,047 - INFO - Running time: 20.485962867736816
+2024-08-22 20:01:04,048 - INFO - Peak GPU memory allocated: 276.25 MB
+2024-08-22 20:01:35,509 - INFO - Running time: 31.45557951927185
+2024-08-22 20:01:35,510 - INFO - Peak GPU memory allocated: 527.78 MB
+2024-08-22 20:02:17,527 - INFO - Running time: 42.00941324234009
+2024-08-22 20:02:17,528 - INFO - Peak GPU memory allocated: 859.38 MB
+2024-08-22 20:03:10,136 - INFO - Running time: 52.60038185119629
+2024-08-22 20:03:10,136 - INFO - Peak GPU memory allocated: 1270.56 MB
+2024-08-22 20:03:32,265 - INFO - Logger created successfully!
+2024-08-22 20:03:32,285 - INFO - Using device: cuda
+2024-08-22 20:03:32,286 - INFO - Starting:
+2024-08-22 20:03:40,471 - INFO - Running time: 8.1824631690979
+2024-08-22 20:03:40,472 - INFO - Peak GPU memory allocated: 100.00 MB
+2024-08-22 20:04:01,463 - INFO - Running time: 20.987423181533813
+2024-08-22 20:04:01,463 - INFO - Peak GPU memory allocated: 276.25 MB
+2024-08-22 20:04:32,999 - INFO - Running time: 31.528672695159912
+2024-08-22 20:04:33,000 - INFO - Peak GPU memory allocated: 527.78 MB
+2024-08-22 20:05:15,044 - INFO - Running time: 42.03784489631653
+2024-08-22 20:05:15,045 - INFO - Peak GPU memory allocated: 859.38 MB
+2024-08-22 20:06:07,499 - INFO - Running time: 52.44589972496033
+2024-08-22 20:06:07,500 - INFO - Peak GPU memory allocated: 1270.56 MB
+2024-08-22 20:10:00,786 - INFO - Logger created successfully!
+2024-08-22 20:10:00,807 - INFO - Using device: cuda
+2024-08-22 20:10:00,807 - INFO - Starting:
+2024-08-22 20:10:12,965 - INFO - Running time: 12.153915166854858
+2024-08-22 20:10:12,965 - INFO - Peak GPU memory allocated: 100.00 MB
+2024-08-22 20:10:34,031 - INFO - Running time: 21.06080961227417
+2024-08-22 20:10:34,031 - INFO - Peak GPU memory allocated: 276.25 MB
+2024-08-22 20:11:05,456 - INFO - Running time: 31.41786003112793
+2024-08-22 20:11:05,456 - INFO - Peak GPU memory allocated: 527.78 MB
+2024-08-22 20:11:47,607 - INFO - Running time: 42.14375710487366
+2024-08-22 20:11:47,608 - INFO - Peak GPU memory allocated: 859.38 MB
+2024-08-22 20:12:40,279 - INFO - Running time: 52.66337466239929
+2024-08-22 20:12:40,279 - INFO - Peak GPU memory allocated: 1270.56 MB
+2024-08-22 20:13:13,546 - INFO - Logger created successfully!
+2024-08-22 20:13:13,567 - INFO - Using device: cuda
+2024-08-22 20:13:13,567 - INFO - Starting:
+2024-08-22 20:13:24,955 - INFO - Running time: 11.383670330047607
+2024-08-22 20:13:24,955 - INFO - Peak GPU memory allocated: 200.00 MB
+2024-08-22 20:13:46,269 - INFO - Running time: 21.309077262878418
+2024-08-22 20:13:46,270 - INFO - Peak GPU memory allocated: 546.88 MB
+2024-08-22 20:14:17,826 - INFO - Running time: 31.549171686172485
+2024-08-22 20:14:17,827 - INFO - Peak GPU memory allocated: 1058.00 MB
+2024-08-22 20:14:59,949 - INFO - Running time: 42.11485695838928
+2024-08-22 20:14:59,949 - INFO - Peak GPU memory allocated: 1720.75 MB
+2024-08-22 20:15:52,414 - INFO - Running time: 52.454184770584106
+2024-08-22 20:15:52,415 - INFO - Peak GPU memory allocated: 2541.12 MB
+2024-08-22 20:16:20,799 - INFO - Logger created successfully!
+2024-08-22 20:16:20,820 - INFO - Using device: cuda
+2024-08-22 20:16:20,821 - INFO - Starting:
+2024-08-22 20:16:31,360 - INFO - Running time: 10.53522777557373
+2024-08-22 20:16:31,360 - INFO - Peak GPU memory allocated: 390.62 MB
+2024-08-22 20:16:52,953 - INFO - Running time: 21.588011026382446
+2024-08-22 20:16:52,954 - INFO - Peak GPU memory allocated: 1093.75 MB
+2024-08-22 20:17:25,047 - INFO - Running time: 32.08488368988037
+2024-08-22 20:17:25,048 - INFO - Peak GPU memory allocated: 2111.12 MB
+2024-08-22 20:18:08,341 - INFO - Running time: 43.28237795829773
+2024-08-22 20:18:08,342 - INFO - Peak GPU memory allocated: 3437.50 MB
+2024-08-22 20:19:01,990 - INFO - Running time: 53.63665747642517
+2024-08-22 20:19:01,991 - INFO - Peak GPU memory allocated: 5079.88 MB
+2024-08-22 20:19:12,643 - INFO - Logger created successfully!
+2024-08-22 20:19:12,664 - INFO - Using device: cuda
+2024-08-22 20:19:12,664 - INFO - Starting:
+2024-08-22 20:19:23,484 - INFO - Running time: 10.816376447677612
+2024-08-22 20:19:23,485 - INFO - Peak GPU memory allocated: 781.25 MB
+2024-08-22 20:19:45,807 - INFO - Running time: 22.31630563735962
+2024-08-22 20:19:45,807 - INFO - Peak GPU memory allocated: 2189.50 MB
+2024-08-22 20:20:19,292 - INFO - Running time: 33.475630044937134
+2024-08-22 20:20:19,292 - INFO - Peak GPU memory allocated: 4218.75 MB
+2024-08-22 20:21:05,230 - INFO - Running time: 45.92481064796448
+2024-08-22 20:21:05,231 - INFO - Peak GPU memory allocated: 6878.00 MB
+2024-08-22 20:22:03,019 - INFO - Running time: 57.773722410202026
+2024-08-22 20:22:03,020 - INFO - Peak GPU memory allocated: 10158.50 MB
+2024-08-22 20:37:50,603 - INFO - Logger created successfully!
+2024-08-22 20:37:50,624 - INFO - Using device: cuda
+2024-08-22 20:37:50,624 - INFO - Starting:
+2024-08-22 20:38:05,662 - INFO - Running time: 15.034216403961182
+2024-08-22 20:38:05,663 - INFO - Peak GPU memory allocated: 1562.50 MB
+2024-08-22 20:38:30,354 - INFO - Running time: 24.68604588508606
+2024-08-22 20:38:30,355 - INFO - Peak GPU memory allocated: 4378.00 MB
+2024-08-22 20:39:07,667 - INFO - Running time: 37.2995331287384
+2024-08-22 20:39:07,668 - INFO - Peak GPU memory allocated: 8439.00 MB
+2024-08-22 20:39:57,425 - INFO - Running time: 49.73409724235535
+2024-08-22 20:39:57,426 - INFO - Peak GPU memory allocated: 13750.00 MB
+2024-08-22 20:41:30,261 - INFO - Logger created successfully!
+2024-08-22 20:41:30,296 - INFO - Using device: cuda
+2024-08-22 20:41:30,296 - INFO - Starting:
+2024-08-22 20:41:46,442 - INFO - Running time: 16.14152717590332
+2024-08-22 20:41:46,442 - INFO - Peak GPU memory allocated: 1562.50 MB
+2024-08-22 20:42:10,721 - INFO - Running time: 24.273577213287354
+2024-08-22 20:42:10,722 - INFO - Peak GPU memory allocated: 4378.00 MB
+2024-08-22 20:42:47,865 - INFO - Running time: 37.13032341003418
+2024-08-22 20:42:47,865 - INFO - Peak GPU memory allocated: 8439.00 MB
+2024-08-22 20:43:37,087 - INFO - Running time: 49.20276427268982
+2024-08-22 20:43:37,088 - INFO - Peak GPU memory allocated: 13750.00 MB
+2024-08-22 20:44:38,869 - INFO - Running time: 61.753214836120605
+2024-08-22 20:44:38,870 - INFO - Peak GPU memory allocated: 20312.50 MB
+2024-08-22 20:45:40,200 - INFO - Logger created successfully!
+2024-08-22 20:45:40,220 - INFO - Using device: cuda
+2024-08-22 20:45:40,220 - INFO - Starting:
+2024-08-22 20:46:41,992 - INFO - Logger created successfully!
+2024-08-22 20:46:42,013 - INFO - Using device: cuda
+2024-08-22 20:46:42,013 - INFO - Starting:
+2024-08-22 20:47:06,759 - INFO - Running time: 24.742616653442383
+2024-08-22 20:47:06,762 - INFO - Peak GPU memory allocated: 20312.50 MB
+2024-08-22 20:49:51,208 - INFO - Logger created successfully!
+2024-08-22 20:49:51,228 - INFO - Using device: cuda
+2024-08-22 20:49:51,228 - INFO - Starting:
+2024-08-22 20:50:54,541 - INFO - Running time: 63.3089497089386
+2024-08-22 20:50:54,542 - INFO - Peak GPU memory allocated: 20312.50 MB
+2024-08-22 20:53:04,031 - INFO - Logger created successfully!
+2024-08-22 20:53:04,052 - INFO - Using device: cuda
+2024-08-22 20:53:04,052 - INFO - Starting:
+2024-08-22 20:54:10,382 - INFO - Running time: 66.32596063613892
+2024-08-22 20:54:10,383 - INFO - Peak GPU memory allocated: 20312.50 MB
+2024-08-22 20:56:09,025 - INFO - Logger created successfully!
+2024-08-22 20:56:09,046 - INFO - Using device: cuda
+2024-08-22 20:56:09,046 - INFO - Starting:
+2024-08-22 20:56:26,536 - INFO - Logger created successfully!
+2024-08-22 20:56:26,555 - INFO - Using device: cuda
+2024-08-22 20:56:26,556 - INFO - Starting:
+2024-08-22 20:57:18,641 - INFO - Running time: 52.081645250320435
+2024-08-22 20:57:18,644 - INFO - Peak GPU memory allocated: 20312.50 MB
+2024-08-22 20:59:33,328 - INFO - Logger created successfully!
+2024-08-22 20:59:33,349 - INFO - Using device: cuda
+2024-08-22 20:59:33,349 - INFO - Starting:
+2024-08-22 20:59:48,595 - INFO - Logger created successfully!
+2024-08-22 20:59:48,614 - INFO - Using device: cuda
+2024-08-22 20:59:48,614 - INFO - Starting:
+2024-08-22 21:00:39,019 - INFO - Running time: 50.40120029449463
+2024-08-22 21:00:39,021 - INFO - Peak GPU memory allocated: 20312.50 MB
+2024-08-22 21:00:46,814 - INFO - Logger created successfully!
+2024-08-22 21:00:46,836 - INFO - Using device: cuda
+2024-08-22 21:00:46,836 - INFO - Starting:
+2024-08-22 21:19:49,897 - INFO - Logger created successfully!
+2024-08-22 21:19:49,919 - INFO - Using device: cuda
+2024-08-22 21:19:49,919 - INFO - Starting:
+2024-08-22 21:20:03,622 - INFO - Running time: 13.698389530181885
+2024-08-22 21:20:03,622 - INFO - Peak GPU memory allocated: 49.77 MB
+2024-08-22 21:20:24,706 - INFO - Running time: 21.082374095916748
+2024-08-22 21:20:24,707 - INFO - Peak GPU memory allocated: 140.00 MB
+2024-08-22 21:20:55,673 - INFO - Logger created successfully!
+2024-08-22 21:20:55,693 - INFO - Using device: cuda
+2024-08-22 21:20:55,693 - INFO - Starting:
+2024-08-22 21:21:00,833 - INFO - Running time: 5.13605809211731
+2024-08-22 21:21:00,833 - INFO - Peak GPU memory allocated: 49.77 MB
+2024-08-22 21:21:04,621 - INFO - Running time: 3.7857789993286133
+2024-08-22 21:21:04,622 - INFO - Peak GPU memory allocated: 140.00 MB
+2024-08-22 21:21:11,839 - INFO - Running time: 7.2130608558654785
+2024-08-22 21:21:11,839 - INFO - Peak GPU memory allocated: 266.00 MB
+2024-08-22 21:23:19,740 - INFO - Logger created successfully!
+2024-08-22 21:23:19,761 - INFO - Using device: cuda
+2024-08-22 21:23:19,761 - INFO - Starting:
+2024-08-22 21:23:24,851 - INFO - Running time: 5.086880922317505
+2024-08-22 21:23:24,852 - INFO - Peak GPU memory allocated: 49.77 MB
+2024-08-22 21:23:28,204 - INFO - Running time: 3.348862409591675
+2024-08-22 21:23:28,205 - INFO - Peak GPU memory allocated: 140.00 MB
+2024-08-22 21:23:32,984 - INFO - Running time: 4.775315999984741
+2024-08-22 21:23:32,984 - INFO - Peak GPU memory allocated: 266.00 MB
+2024-08-22 21:24:58,927 - INFO - Logger created successfully!
+2024-08-22 21:24:58,948 - INFO - Using device: cuda
+2024-08-22 21:24:58,948 - INFO - Starting:
+2024-08-22 21:25:04,322 - INFO - Running time: 5.370811700820923
+2024-08-22 21:25:04,322 - INFO - Peak GPU memory allocated: 24.88 MB
+2024-08-22 21:25:08,064 - INFO - Running time: 3.7401280403137207
+2024-08-22 21:25:08,064 - INFO - Peak GPU memory allocated: 69.77 MB
+2024-08-22 21:25:13,279 - INFO - Running time: 5.211562633514404
+2024-08-22 21:25:13,280 - INFO - Peak GPU memory allocated: 131.95 MB
+2024-08-22 21:25:37,476 - INFO - Logger created successfully!
+2024-08-22 21:25:37,497 - INFO - Using device: cuda
+2024-08-22 21:25:37,497 - INFO - Starting:
+2024-08-22 21:25:42,458 - INFO - Running time: 4.957157611846924
+2024-08-22 21:25:42,459 - INFO - Peak GPU memory allocated: 100.00 MB
+2024-08-22 21:25:45,760 - INFO - Running time: 3.298269271850586
+2024-08-22 21:25:45,761 - INFO - Peak GPU memory allocated: 276.25 MB
+2024-08-22 21:25:50,553 - INFO - Running time: 4.786979675292969
+2024-08-22 21:25:50,553 - INFO - Peak GPU memory allocated: 527.78 MB
+2024-08-22 21:26:16,039 - INFO - Running time: 25.479405641555786
+2024-08-22 21:26:16,042 - INFO - Peak GPU memory allocated: 859.38 MB
+2024-08-22 21:27:57,346 - INFO - Logger created successfully!
+2024-08-22 21:27:57,396 - INFO - Using device: cuda
+2024-08-22 21:27:57,397 - INFO - Starting:
+2024-08-22 21:28:11,067 - INFO - Running time: 13.661720752716064
+2024-08-22 21:28:11,068 - INFO - Peak GPU memory allocated: 49.77 MB
+2024-08-22 21:28:32,162 - INFO - Running time: 21.092570304870605
+2024-08-22 21:28:32,163 - INFO - Peak GPU memory allocated: 140.00 MB
+2024-08-22 21:29:03,554 - INFO - Running time: 31.38748860359192
+2024-08-22 21:29:03,554 - INFO - Peak GPU memory allocated: 266.00 MB
+2024-08-22 21:29:45,532 - INFO - Running time: 41.97269415855408
+2024-08-22 21:29:45,533 - INFO - Peak GPU memory allocated: 432.50 MB
+2024-08-22 21:30:37,996 - INFO - Running time: 52.456093311309814
+2024-08-22 21:30:37,996 - INFO - Peak GPU memory allocated: 634.77 MB
+2024-08-22 21:31:23,381 - INFO - Logger created successfully!
+2024-08-22 21:31:23,401 - INFO - Using device: cuda
+2024-08-22 21:31:23,402 - INFO - Starting:
+2024-08-22 21:31:36,260 - INFO - Running time: 12.854321241378784
+2024-08-22 21:31:36,260 - INFO - Peak GPU memory allocated: 24.88 MB
+2024-08-22 21:31:57,265 - INFO - Running time: 21.003581047058105
+2024-08-22 21:31:57,265 - INFO - Peak GPU memory allocated: 69.77 MB
+2024-08-22 21:32:28,696 - INFO - Running time: 31.428271532058716
+2024-08-22 21:32:28,697 - INFO - Peak GPU memory allocated: 131.95 MB
+2024-08-22 21:33:10,673 - INFO - Running time: 41.972264766693115
+2024-08-22 21:33:10,674 - INFO - Peak GPU memory allocated: 216.25 MB
+2024-08-22 21:34:03,113 - INFO - Running time: 52.43484091758728
+2024-08-22 21:34:03,113 - INFO - Peak GPU memory allocated: 317.38 MB
