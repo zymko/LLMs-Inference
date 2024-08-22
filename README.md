@@ -81,7 +81,7 @@ We fixed the batch size, while changing matrix (query, value, key) size from 400
 
 
 
-## Conlcusion
+## Conclusion
 
 > Peak Memory:
 - GPU memory costs seem to linearly increase as batch size increases or matrix size increases.
