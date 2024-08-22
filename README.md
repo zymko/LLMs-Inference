@@ -29,9 +29,9 @@ The dataset contains five folders, each of which stores 3*2000 matrices of a giv
 
 ## Matrix Multiplication
 Currently, our test is based on a [Scaled Dot-Product Attention] (https://example.com)
-$$
+```math
 \text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V
-$$
+```
 
 ## Results
 
