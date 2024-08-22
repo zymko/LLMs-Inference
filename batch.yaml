@@ -1,0 +1,4 @@
+dataset:
+  size: 2000
+  # batch_sizes: [4, 8, 16, 32, 64, 128, 256, 512]
+  batch_sizes: [512]
