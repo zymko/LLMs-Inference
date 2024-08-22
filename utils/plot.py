@@ -25,7 +25,7 @@ def plot_matrix_size(file_paths, images_path, ylabel):
     print(data_matrix)
 
 
-    fig, ax = plt.subplots()
+    fig, ax = plt.subplots(figsize=(10, 6))
 
     x = [1, 2, 3, 4, 5]
 
