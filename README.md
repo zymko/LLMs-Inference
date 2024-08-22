@@ -2,7 +2,7 @@
 
 ## Dataset
 The tree structure of dataset is as follows:
-'''bash
+```bash
 dataset
 ├── 1200-400
 │   ├── key
@@ -24,7 +24,7 @@ dataset
     ├── key
     ├── query
     └── value
-'''
+```
 The dataset contains five folders, each of which stores 3*2000 matrices of a given size indicating by folder's name. Consider the length of tokens is usually larger than the length of embeddings, we generated these matrix with rows larger than columns. The dataset is too large to upload to github, but one can use utils/data.py to generate this dataset, in which values are stored as Float32. Please put dataset under the root path before running a test.
 
 ## Matrix Multiplication
