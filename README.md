@@ -25,7 +25,7 @@ dataset
     ├── query
     └── value
 ```
-The dataset contains five folders, each of which stores 3*2000 matrices of a given size indicating by folder's name. Consider the length of tokens is usually larger than the length of embeddings, we generated these matrix with rows larger than columns. The dataset is too large to upload to github, but one can use utils/data.py to generate this dataset, in which values are stored as Float32. Please put dataset under the root path before running a test.
+The dataset contains five folders, each of which stores 3*2000 matrices of a given size as indicated by the folder's name. Considering that the length of tokens is usually larger than the length of embeddings, we generated these matrices with more rows than columns. The dataset is too large to upload to GitHub, but you can use `utils/data.py` to generate this dataset, where values are stored as `Float32`. Please place the dataset under the root path before running a test.
 
 ## Matrix Multiplication
 Currently, our test is based on a [Scaled Dot-Product Attention](https://example.com)
@@ -83,21 +83,21 @@ We fixed the batch size, while changing matrix (query, value, key) size from 400
 
 ## Conlcusion
 
-> Peak memory: 
+> Peak Memory:
 - GPU memory costs seem to linearly increase as batch size increases or matrix size increases.
->
-> Running time:
-- Running time seem to linearly increase as matrix size increases, but this phenomenon does not hold true when batch size increases.
-- Increasing batch size from 8 to 32 may help efficiency like in the matrix size of 400x400 and 1200x400, but the benefit is too small.
-- When the batch size inceases to 512, time costs is always the largerst among all matrix sizes.
->
-> Possible reasons why larger batch size does not help
-- Lage batch size increases overheads of dataloader initialization.
-- I/O costs is the dominant bottle neck is our test, since a Scaled Dot-Product Attention is quite simple and only cost few resources. The benefits from large batch sizes, like high GPU utilization, can not offset large overheads.
-> 
-> Possible solutions:
-- Increase costs of scaled dot-production attention by inceasing the matrix size. Maybe from 400x2000 to 1000x5000, but should be careful about memory.
-- Increase the number of matrices, like from 2000 to 10000, to compensate for large overheads caused by dataloader initialization.
+
+> Running Time:
+- Running time seems to linearly increase as matrix size increases, but this phenomenon does not hold true when batch size increases.
+- Increasing batch size from 8 to 32 may help efficiency, such as with matrix sizes of 400x400 and 1200x400, but the benefit is minimal.
+- When the batch size increases to 512, time costs are always the largest among all matrix sizes.
+
+> Possible Reasons Why Larger Batch Size Does Not Help:
+- Large batch size increases the overhead of dataloader initialization.
+- I/O costs are the dominant bottleneck in our test since a Scaled Dot-Product Attention is quite simple and only consumes few resources. The benefits of large batch sizes, such as high GPU utilization, cannot offset the large overheads.
+
+> Possible Solutions:
+- Increase the costs of scaled dot-product attention by increasing the matrix size, perhaps from 400x2000 to 1000x5000, but be cautious about memory usage.
+- Increase the number of matrices, for example from 2000 to 10000, to compensate for the large overheads caused by dataloader initialization.
 
 
 
