@@ -1,5 +1,55 @@
 # LLMs-Inference
 
+# Date: 10.09.2024
+
+## Dataset
+We choose validation set, test set and partial train set of wikitext-103-v1 to construct a dataset with 3759072 tokens.
+
+## Test Model
+
+### GPT2
+| Model Type                       | Params  | n_layer | n_head   | n_embd   | model_size  | QKV_dimension  |
+|----------------------------------|---------|---------|----------|----------|-------------|----------------|
+| gpt2                             | 124M    | 12      | 12       | 768      |0.46 GB      |(B, 12, T, 64)  |
+| gpt2-medium                      | 350M    | 24      | 16       | 1024     |1.30 GB      |(B, 16, T, 64)  |
+| gpt2-large                       | 774M    | 36      | 20       | 1280     |2.88 GB      |(B, 20, T, 64)  |
+| gpt2-xl                          | 1158M   | 48      | 25       | 1600     |4.32 GB      |(B, 25, T, 64)  |
+
+## Results
+
+### Running Time (s)
+
+#### Fix Sequence Length (T)
+We fixed the sequence length T to 1024, while changing mode types and batch sizes. The following image shows the relationship between running time in second and batch size for a given model type.
+![Sequence Length = 1024](gpt_results/running_time_b_m.png)
+
+#### Fix Batch Size (B) and Model Type
+We fixed the batch size B to 4 and model type to GPT2, while changing the sequence length. The following image shows the relationship between running time in second and the sequence length.
+
+
+#### Fix Batch Size (B), Model Type, Sequence Length (T)
+We fixed the batch size B to 4,  model type to GPT2 and the sequence length to 1024, while changing the n_group. Here n_groups means how many heads share a same k and v. The following image shows the relationship between running time in second and n_group.
+
+
+
+
+
+
+### Peak Memory (GB)
+
+#### Fix Sequence Length (T)
+We fixed the sequence length T to 1024, while changing mode types and batch sizes. The following image shows the relationship between peak memory in GB and batch size for a given model type.
+![Sequence Length = 1024](gpt_results/peak_memory_b_m.png)
+
+#### Fix Batch Size (B) and Model Type
+We fixed the batch size B to 4 and model type to GPT2, while changing the sequence length. The following image shows the relationship between peak memory in GB and the sequence length.
+
+#### Fix Batch Size (B), Model Type, Sequence Length (T)
+We fixed the batch size B to 4,  model type to GPT2 and the sequence length to 1024, while changing the n_groups. Here n_groups means how many heads share a same k and v. Here n_groups means how many heads share a same k and v. The following image shows the relationship peak memory in GB and n_group.
+
+
+# Date: 24.08.2024
+
 ## Dataset
 The tree structure of dataset is as follows:
 ```bash

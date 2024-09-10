@@ -10,6 +10,7 @@ import tiktoken
 import numpy as np
 from torch.utils.data import Dataset, DataLoader
 import time
+import csv
 
 
 
@@ -34,14 +35,19 @@ class CausalSelfAttention(nn.Module):
         super().__init__()
 
         assert config.n_embd % config.n_head == 0
+        assert config.n_head % config.n_group == 0
+
         # key, query, value projections for all heads, but in a batch
-        self.c_attn = nn.Linear(config.n_embd, 3 * config.n_embd)
+        self.kv_attn = nn.Linear(config.n_embd, 2 * config.n_embd // config.n_group)
+
+        self.q_attn = nn.Linear(config.n_embd, config.n_embd)
         # output projection
         self.c_proj = nn.Linear(config.n_embd, config.n_embd)
         self.c_proj.NANOGPT_SCALE_INIT = 1
         # regularization
         self.n_embd = config.n_embd
         self.n_head = config.n_head
+        self.n_group = config.n_group
 
         self.register_buffer('bias', torch.tril(torch.ones(config.block_size, config.block_size))
                                                 .view(1, 1, config.block_size, config.block_size))
@@ -49,11 +55,24 @@ class CausalSelfAttention(nn.Module):
     def forward(self, x):
         
         B, T, C  = x.size()
-        qkv = self.c_attn(x) # B T 3*C
-        q, k, v = qkv.split(self.n_embd, dim = 2)
-        k = k.view(B, T, self.n_head, C // self.n_head).transpose(1, 2) # (B, nh, T, hs)
+        kv = self.kv_attn(x) # B T 3*C
+        q = self.q_attn(x)
+
+        k, v = kv.split(self.n_embd // self.n_group, dim = 2)
+
+        k = k.view(B, T, self.n_head // self.n_group, C // self.n_head).unsqueeze(2) \
+            .expand(B, T, self.n_group, self.n_head // self.n_group, C // self.n_head).reshape(B, T, self.n_head, C // self.n_head)
+        v = v.view(B, T, self.n_head // self.n_group, C // self.n_head).unsqueeze(2) \
+            .expand(B, T, self.n_group, self.n_head // self.n_group, C // self.n_head).reshape(B, T, self.n_head, C // self.n_head)
+        k = k.transpose(1, 2) # (B, nh, T, hs)
+        v = v.transpose(1, 2) # (B, nh, T, hs)
+
+
+        # k = k.view(B, T, self.n_head, C // self.n_head).transpose(1, 2) # (B, nh, T, hs)
         q = q.view(B, T, self.n_head, C // self.n_head).transpose(1, 2) # (B, nh, T, hs)
-        v = v.view(B, T, self.n_head, C // self.n_head).transpose(1, 2) # (B, nh, T, hs)
+        # v = v.view(B, T, self.n_head, C // self.n_head).transpose(1, 2) # (B, nh, T, hs)
+
+
         att = (q @ k.transpose(-2, -1)) * (1.0 / math.sqrt(k.size(-1)))
         att = att.masked_fill(self.bias[:,:,:T,:T] == 0, float('-inf'))
         att = F.softmax(att, dim = -1)
@@ -85,6 +104,7 @@ class GPTConfig:
     n_layer: int = 12 # number of layers
     n_head: int = 12 # number of heads
     n_embd: int = 768 # embedding dimension
+    n_group: int = 1 # group attention
 
 class GPT(nn.Module):
     
@@ -188,12 +208,9 @@ class GPT(nn.Module):
 
 class Text(Dataset):
 
-    def __init__(self, B, T, file='dataset/input.txt'):
+    def __init__(self, B, T, text='None'):
         self.B = B
         self.T = T
-
-        with open(file, 'r') as f:
-            text = f.read()
 
         enc = tiktoken.get_encoding('gpt2')
         tokens = enc.encode(text)
@@ -241,11 +258,15 @@ if __name__ == '__main__':
 
     model=GPT(config)
     model.to(device)
+    
+    batch_size = 4
+    seq_length = 2048
 
-    batch_size = 8
-    seq_length = 1024
+    with open('dataset/text_split_2.txt', 'r', encoding='utf-8') as file:
+        text = file.read()
 
-    text_dataset = Text(B=batch_size, T=seq_length)
+
+    text_dataset = Text(B=batch_size, T=seq_length, text=text)
     train_loader = DataLoader(text_dataset, batch_size=batch_size, shuffle=True, num_workers=4)
 
     start_time = time.time()
@@ -254,11 +275,20 @@ if __name__ == '__main__':
             x, y = x.to(device), y.to(device)
             logits, loss = model(x, y)
     end_time = time.time()
-    print(f'Total time: {end_time - start_time} seconds')
+    running_time = end_time - start_time
+    print(f'Total time: {running_time} seconds')
     memory=torch.cuda.max_memory_allocated()/ 1024 ** 2
     print(f'Peak memory is {memory} GB')
-    # optimizer = torch.optim.AdamW(model.parameters(), lr=3e-4)
 
+
+    results =[
+        [model_type, batch_size, seq_length, running_time, memory]
+    ]
+    with open("gpt_results/output.csv", "a", newline="", encoding="utf-8") as file:
+        writer = csv.writer(file)
+        writer.writerows(results)
+
+    # optimizer = torch.optim.AdamW(model.parameters(), lr=3e-4)
     # for epoch in range(50):
     #     for x, y in train_loader:
     #         x, y = x.to(device), y.to(device)
@@ -278,7 +308,6 @@ if __name__ == '__main__':
     # tokens = torch.tensor(tokens, dtype=torch.long)
     # tokens = tokens.unsqueeze(0).repeat(num_return_sequences, 1)
     # x = tokens.to(device)
-
     # torch.manual_seed(42)
     # torch.cuda.manual_seed(42)
 
