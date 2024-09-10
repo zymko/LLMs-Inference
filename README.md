@@ -48,17 +48,25 @@ We fixed the batch size B to 32 and model type to GPT2, while changing the seque
 We fixed the batch size B to 4,  model type to GPT2 and the sequence length to 1024, while changing the n_groups. Here n_groups means how many heads share a same k and v. Here n_groups means how many heads share a same k and v. The following image shows the relationship peak memory in GB and n_group.
 ![Batch size = 32, gpt2, sequence length=1024](gpt_results/peak_memory_g.png)
 
+
 ## Conclusion
 
 > Peak Memory:
 - GPU memory costs seem to linearly increase as batch size and sequence length.
 - GPU memory costs increase as the model size increase.
--
+- GPU memory costs reduce when n_group increases, but it is not very huge as expected
 
 > Running Time:
 - Running time increase as model size increases, but this phenomenon is not clear when batch size increases.
 - Increasing batch size from 4 to 32 reduces running time in all types of model, but not very obvious.
 - Running time increase as sequence length increases.
+- Running time reduce when n_group increases, but it is not very huge as expected
+
+## Discussion and Next Steps
+
+-From this test, it seems that larger batch size may help reduce the running time but not obvious.
+-A large n_group does not lead to much GPU memory costs and running time reduction as paper claimed. The reason behind it might we do not use
+kv caching, so benefits from reducing kv dimension is not apparent.
 
 
 
