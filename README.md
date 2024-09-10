@@ -64,9 +64,12 @@ We fixed the batch size B to 4,  model type to GPT2 and the sequence length to 1
 
 ## Discussion and Next Steps
 
--From this test, it seems that larger batch size may help reduce the running time but not obvious.
--A large n_group does not lead to much GPU memory costs and running time reduction as paper claimed. The reason behind it might we do not use
+> Discussion:
+- From this test, it seems that larger batch size may help reduce the running time but not obvious.
+- A large n_group does not lead to much GPU memory costs and running time reduction as paper claimed. The reason behind it might we do not use
 kv caching, so benefits from reducing kv dimension is not apparent.
+> Next Steps:
+- Use KV cache
 
 
 
