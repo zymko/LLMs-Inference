@@ -21,18 +21,17 @@ We choose validation set, test set and partial train set of wikitext-103-v1 to c
 
 #### Fix Sequence Length (T)
 We fixed the sequence length T to 1024, while changing mode types and batch sizes. The following image shows the relationship between running time in second and batch size for a given model type.
+
 ![Sequence Length = 1024](gpt_results/running_time_b_m.png)
 
 #### Fix Batch Size (B) and Model Type
-We fixed the batch size B to 4 and model type to GPT2, while changing the sequence length. The following image shows the relationship between running time in second and the sequence length.
+We fixed the batch size B to 32 and model type to GPT2, while changing the sequence length. The following image shows the relationship between running time in second and the sequence length.
+![Batch size = 32, gpt2](gpt_results/running_time_s.png)
 
 
 #### Fix Batch Size (B), Model Type, Sequence Length (T)
 We fixed the batch size B to 4,  model type to GPT2 and the sequence length to 1024, while changing the n_group. Here n_groups means how many heads share a same k and v. The following image shows the relationship between running time in second and n_group.
-
-
-
-
+![Batch size = 32, gpt2, sequence length=1024](gpt_results/running_time_g.png)
 
 
 ### Peak Memory (GB)
@@ -42,10 +41,25 @@ We fixed the sequence length T to 1024, while changing mode types and batch size
 ![Sequence Length = 1024](gpt_results/peak_memory_b_m.png)
 
 #### Fix Batch Size (B) and Model Type
-We fixed the batch size B to 4 and model type to GPT2, while changing the sequence length. The following image shows the relationship between peak memory in GB and the sequence length.
+We fixed the batch size B to 32 and model type to GPT2, while changing the sequence length. The following image shows the relationship between peak memory in GB and the sequence length.
+![Batch size = 32, gpt2](gpt_results/peak_memory_s.png)
 
 #### Fix Batch Size (B), Model Type, Sequence Length (T)
 We fixed the batch size B to 4,  model type to GPT2 and the sequence length to 1024, while changing the n_groups. Here n_groups means how many heads share a same k and v. Here n_groups means how many heads share a same k and v. The following image shows the relationship peak memory in GB and n_group.
+![Batch size = 32, gpt2, sequence length=1024](gpt_results/peak_memory_g.png)
+
+## Conclusion
+
+> Peak Memory:
+- GPU memory costs seem to linearly increase as batch size and sequence length.
+- GPU memory costs increase as the model size increase.
+-
+
+> Running Time:
+- Running time increase as model size increases, but this phenomenon is not clear when batch size increases.
+- Increasing batch size from 4 to 32 reduces running time in all types of model, but not very obvious.
+- Running time increase as sequence length increases.
+
 
 
 # Date: 24.08.2024

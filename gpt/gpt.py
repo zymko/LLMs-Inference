@@ -104,7 +104,7 @@ class GPTConfig:
     n_layer: int = 12 # number of layers
     n_head: int = 12 # number of heads
     n_embd: int = 768 # embedding dimension
-    n_group: int = 1 # group attention
+    n_group: int = 12 # group attention
 
 class GPT(nn.Module):
     
@@ -259,8 +259,8 @@ if __name__ == '__main__':
     model=GPT(config)
     model.to(device)
     
-    batch_size = 4
-    seq_length = 2048
+    batch_size = 32
+    seq_length = 1024
 
     with open('dataset/text_split_2.txt', 'r', encoding='utf-8') as file:
         text = file.read()
@@ -282,7 +282,7 @@ if __name__ == '__main__':
 
 
     results =[
-        [model_type, batch_size, seq_length, running_time, memory]
+        [model_type, batch_size, seq_length, running_time, memory, config.n_group]
     ]
     with open("gpt_results/output.csv", "a", newline="", encoding="utf-8") as file:
         writer = csv.writer(file)
