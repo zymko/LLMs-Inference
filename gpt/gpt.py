@@ -104,7 +104,7 @@ class GPTConfig:
     n_layer: int = 12 # number of layers
     n_head: int = 12 # number of heads
     n_embd: int = 768 # embedding dimension
-    n_group: int = 12 # group attention
+    n_group: int = 1 # group attention
 
 class GPT(nn.Module):
     
@@ -243,7 +243,7 @@ if __name__ == '__main__':
         print("CUDA is not available.")
         device = torch.device("cpu")  # Fallback to CPU
 
-    model_type='gpt2'
+    model_type='gpt2-large'
     config_args = {
             'gpt2':         dict(n_layer=12, n_head=12, n_embd=768),  # 124M params
             'gpt2-medium':  dict(n_layer=24, n_head=16, n_embd=1024), # 350M params
@@ -260,7 +260,7 @@ if __name__ == '__main__':
     model.to(device)
     
     batch_size = 32
-    seq_length = 1024
+    seq_length = 256
 
     with open('dataset/text_split_2.txt', 'r', encoding='utf-8') as file:
         text = file.read()
